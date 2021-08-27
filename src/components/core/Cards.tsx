@@ -18,6 +18,10 @@ const useStyles = makeStyles({
 const Cards = (props: any) => {
     const classes = useStyles();
 
+    const showLearnMore = () => {
+        props.showLearnMore(true, props.details)
+    }
+
     return (
         <Card className={classes.root}>
             <CardActionArea>
@@ -38,7 +42,7 @@ const Cards = (props: any) => {
                 </CardContent>
             </CardActionArea>
             <CardActions>
-                <Button size="small" color="primary">
+                <Button size="small" color="primary" onClick={showLearnMore}>
                     Learn More
                 </Button>
             </CardActions>

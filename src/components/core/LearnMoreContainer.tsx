@@ -1,8 +1,7 @@
 import React from 'react';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Container from '@material-ui/core/Container';
-import { ITree } from '../layouts/SmMainContent/SmMainContent';
-import { makeStyles, Paper, Typography } from '@material-ui/core';
+import { makeStyles, Paper } from '@material-ui/core';
 import Button from '@material-ui/core/Button';
 
 const useStyles = makeStyles({
@@ -24,7 +23,7 @@ const LearnMoreContainer = (props: any) => {
             <CssBaseline />
             <Container maxWidth="sm" className={classes.root}>
                 <Paper>
-                    <img src={props.ImageURL} style={{ height: '70vh', width: '100%' }} />
+                    <img alt="trees" src={props.ImageURL} style={{ height: '70vh', width: '100%' }} />
                 </Paper>
 
             </Container>

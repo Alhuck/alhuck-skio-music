@@ -19,7 +19,7 @@ const SmToolbar = (props: any) => {
                     <MenuIcon />
                 </IconButton>
                 <Typography component="h1" variant="h6" color="inherit" noWrap className={props.themeCls.title}>
-                    SkioMusic
+                    SkioMusicTree
                 </Typography>
             </Toolbar>
         </AppBar >

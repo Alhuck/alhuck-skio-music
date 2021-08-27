@@ -1,17 +1,38 @@
-import './App.css';
+import React from 'react';
+import SmToolbar from './components/SmToolbar';
+import SmDrawer from './components/SmDrawer';
+import { useStyles } from './App.styles';
+import SmMainContent from './components/SmMainContent';
+
 
 const App = () => {
 
-  // const logo = require("./logo.svg") as string;
+  const themeCls = useStyles();
+  const [open, setOpen] = React.useState(true);
+  const handleDrawerClose = () => {
+    setOpen(false);
+  };
+  const handleDrawerOpen = () => {
+    setOpen(true);
+  };
+
 
   return (
-    <div className="App">
-      <header>
-        This is header
-      </header>
-      <main>
-        <p>Main section!</p>
-      </main>
+
+    <div className={themeCls.root}>
+      {/* <CssBaseline /> */}
+      <SmToolbar
+        themeCls={themeCls}
+        open={open}
+        handleDrawerOpen={handleDrawerOpen} />
+      <SmDrawer
+        themeCls={themeCls}
+        open={open}
+        handleDrawerClose={handleDrawerClose}
+      />
+      <SmMainContent
+        themeCls={themeCls}
+      />
     </div>
   );
 }

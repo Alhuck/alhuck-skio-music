@@ -1,8 +1,9 @@
 import React from 'react';
-import SmToolbar from './components/SmToolbar';
-import SmDrawer from './components/SmDrawer';
 import { useStyles } from './App.styles';
-import SmMainContent from './components/SmMainContent';
+import SmToolbar from './components/layouts/SmToolbar/SmToolbar';
+import SmDrawer from './components/layouts/SmDrawer/SmDrawer';
+import SmMainContent from './components/layouts/SmMainContent/SmMainContent';
+
 
 
 const App = () => {
@@ -20,7 +21,6 @@ const App = () => {
   return (
 
     <div className={themeCls.root}>
-      {/* <CssBaseline /> */}
       <SmToolbar
         themeCls={themeCls}
         open={open}

@@ -1,7 +1,7 @@
 import { Drawer, Divider, List, IconButton } from '@material-ui/core';
 import clsx from 'clsx';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
-import { MenuItems } from './MenuItems';
+import { MenuItems } from '../../core/MenuItems';
 
 
 const SmDrawer = (props: any) => {

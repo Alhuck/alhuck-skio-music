@@ -26,4 +26,10 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 ### screen shot of the application below
-![alt text](https://github.com/Alhuck/alhuck-skio-music/blob//master/readme-assest-1.png?raw=true) 
+![alt text](https://github.com/Alhuck/alhuck-skio-music/blob/master/src/assets/readme-assest-1.png?raw=true) 
+![alt text](https://github.com/Alhuck/alhuck-skio-music/blob/master/src/assets/readme-assest-2.png?raw=true) 
+![alt text](https://github.com/Alhuck/alhuck-skio-music/blob/master/src/assets/readme-assest-3.png?raw=true) 
+![alt text](https://github.com/Alhuck/alhuck-skio-music/blob/master/src/assets/readme-assest-4.png?raw=true) 
+![alt text](https://github.com/Alhuck/alhuck-skio-music/blob/master/src/assets/readme-assest-5.png?raw=true) 
+![alt text](https://github.com/Alhuck/alhuck-skio-music/blob/master/src/assets/readme-assest-6.png?raw=true) 
+![alt text](https://github.com/Alhuck/alhuck-skio-music/blob/master/src/assets/readme-assest-7.png?raw=true) 

@@ -37,7 +37,7 @@ const Cards = (props: any) => {
                         {props.details.CommonName}
                     </Typography>
                     <Typography variant="body2" color="textSecondary" component="p">
-                        Common Name: {props.details.CommonName}
+                        Binomial Name: {props.details.BinomialName}
                     </Typography>
                 </CardContent>
             </CardActionArea>

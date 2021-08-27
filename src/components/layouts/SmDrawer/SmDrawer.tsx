@@ -1,7 +1,7 @@
 import { Drawer, Divider, List, IconButton } from '@material-ui/core';
 import clsx from 'clsx';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
-import { MenuItems } from '../../core/MenuItems';
+import  MenuItems from '../../core/MenuItems';
 
 
 const SmDrawer = (props: any) => {
@@ -21,7 +21,7 @@ const SmDrawer = (props: any) => {
                 </IconButton>
             </div>
             <Divider />
-            <List>{MenuItems}</List>
+            <List><MenuItems/></List>
             <Divider />
         </Drawer>
     );

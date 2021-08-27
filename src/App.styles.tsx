@@ -7,6 +7,7 @@ export const useStyles = makeStyles((theme) => ({
     },
     toolbar: {
         paddingRight: 24,
+        backgroundColor: 'black',
     },
     toolbarIcon: {
         display: 'flex',
